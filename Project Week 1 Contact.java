@@ -25,7 +25,7 @@ class Contact {
         this.name = name;
         this.email = email;
 
-        // Create a PhoneNumber object (Compostition)
+        // Create a PhoneNumber object (Composition)
         this.phone = new PhoneNumber(phoneNumber);
     }
 
